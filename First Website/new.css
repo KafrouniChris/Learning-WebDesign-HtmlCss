@@ -1,0 +1,102 @@
+html, body {
+height: 100%;
+}
+body
+{
+	font-family: times, serif;
+	background-color: green;
+	color: black;
+	margin: 1em 4em 0em 3em;
+	font-size: 11pt;
+}
+
+#top {
+    position: absolute;
+    width: 90%;
+}
+#top-spacer {
+	height: 120px;
+}
+
+p
+{
+	text-align: justify;
+	margin-left: 2em;
+	margin-right: 5em;
+}
+
+table
+{
+	font-size: 9pt;
+}
+
+code
+{
+	font-family: Courier;
+	font-size: 11pt;
+}
+
+h3
+{
+	font-family: arial, sans-serif;
+	text-align: left;
+	padding: 2pt 0pt 1pt 0pt;
+	margin: 1em 0 0 0;
+	text-decoration: none;
+	font-size: 16pt;
+	font-weight: bold;
+	color: #808080;
+}
+
+h4
+{
+	font-family: helvetica, sans-serif;
+	padding: 0pt 20pt 0pt 0pt;
+	margin: 0em 0 0 0;
+	text-decoration: none;
+	font-size: 12pt;
+	font-weight: bold;
+	color: black;
+}
+
+h5
+{
+	font-family: helvetica, sans-serif;
+	text-align: left;
+	padding: 0pt 0pt 0pt 0pt;
+	margin: 0 0 0 1em;
+}
+
+li
+{
+	text-align: justify;
+	margin-bottom: 0.5em;
+	margin-right: 5em;
+}
+
+a
+{
+	color: #000000;
+	font-weight:bold;
+}
+
+a:hover
+{
+	color: #606060;
+	font-weight:bold;
+}
+
+#container {
+	min-height: 100%; /* use min-height not height, to prevent overlap */
+	margin-bottom: -61px; /* = #footer height+padding+border, to prevent overlap */
+}
+* html #container {
+	height: 100%; /* ie6 doesn't support min-height, so need to use height */
+}
+
+#footer-spacer {
+	height: 61px;
+}
+#footer {
+	height: 60px;
+}
